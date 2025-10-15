@@ -52,3 +52,51 @@ section {
   width: 300px;
   margin: 20px auto;
 }
+.community-section {
+  background: #0f111a;
+  color: #e0e0e0;
+  padding: 50px 20px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.community-section h2 {
+  color: #00bcd4;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.community-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.community-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.community-section li {
+  font-size: 1.1em;
+  margin: 8px 0;
+}
+
+.discord-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #5865F2;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.discord-btn:hover {
+  background: #4752C4;
+}

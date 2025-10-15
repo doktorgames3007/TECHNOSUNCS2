@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+header {
+  background-color: #111;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: cyan;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.connect-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: cyan;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.connect-btn:hover {
+  background-color: #00ffffaa;
+}
+
+.server-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 20px auto;
+}
